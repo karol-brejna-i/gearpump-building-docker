@@ -20,8 +20,14 @@ sudo pip install Pygments
 sudo pip install mkdocs
 ```
 
+sudo apt-get install ruby
+sudo apt-get install ruby-dev
+sudo apt-get install python-setuptools ??
+sudo apt-get install pip
 
 For building the sources we need JDK and SBT.
 
 Let's start with this.
 
+
+docker build --env http_proxy=http://proxy-mu.intel.com:911 .
